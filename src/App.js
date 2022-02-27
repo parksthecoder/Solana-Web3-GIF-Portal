@@ -117,7 +117,7 @@ const App = () => {
           Submit
         </button>
       </form>
-      <div className="gif-grind">
+      <div className="gif-grid">
         {gifList.map((gif) => (
           <div className="gif-item" key={gif}>
             <img src={gif} alt={gif}/>
